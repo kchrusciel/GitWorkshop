@@ -5,13 +5,13 @@ package conflict;
  */
 public class Conflict {
 
-    private String name;
+    private String newName;
 
-    public Conflict(String name) {
-        this.name = name;
+    public Conflict(String newName) {
+        this.newName = newName;
     }
 
-    public String getName() {
-        return name;
+    public String getNewName() {
+        return newName;
     }
 }
